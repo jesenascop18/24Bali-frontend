@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #65c7f7;
+    background-image: linear-gradient(120deg, #65c7f7 0%, #0052d4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .registration-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    color: #ffa726;
+    margin-bottom: 20px;
+    font-size: 36px; /* Ukuran tulisan Sign Up diperbesar */
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="date"],
+  .registration-form input[type="email"],
+  .registration-form input[type="password"],
+  .registration-form input[type="tel"],
+  .registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa726;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #fb8c00;
+  }
+  
+  .registration-form .terms {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .registration-form .terms a {
+    color: #ffa726;
+    text-decoration: none;
+  }
+  
+  .registration-form .terms a:hover {
+    text-decoration: underline;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to bottom, #37B9C2, #98C3C4);
+}
+
+.login-container {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+.login-form label{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.login-form h2 {
+    color: #FF9800;
+    margin: 0.2rem;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.login-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    color: #333;
+    text-align: left;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: -0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form .forgot-password {
+    display: block;
+    margin: 0.3rem;
+    color: #FF9800;
+    text-decoration: none;
+}
+
+.login-form a{
+    font-size: 12px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.login-form button {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0 0;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #e68a00;
+}
